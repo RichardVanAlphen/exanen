@@ -3,7 +3,7 @@ $(document).ready(function(){
         $.ajax({
         url: '../html/blogArtiekelen.html',
         success: function(data){
-            //laad pagina in div
+            alert('Heeft de pagina wel kunnen laden.');
         },
         error: function(){
             alert('Heeft de pagina niet kunnen laden.');
